@@ -1,0 +1,47 @@
+/* CSS for the Register component */
+
+.sign-up-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.sign-up-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  max-width: 90%;
+  padding: 10px;
+  margin: auto auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn-r {
+  width: 96%;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-r:hover {
+  background-color: #45a049;
+}

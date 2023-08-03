@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+}
+.navbar >.nav-list:hover{
+    background-color: blueviolet;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.nav-list{
+    min-width: 110px;
+    min-height: 40px;
+    background-color: aqua;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: larger;
+    font-weight: 900;
+    color: azure;
+}
+
+/* .hamburg{
+    
+    
+}
+.hamburg>.list{
+    background-color: #61677A;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hamburg>.list>ul{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.hamburg>.list>ul>.List{
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 10px;
+} */
+
+
+@media screen and (max-width: 480px) {
+   
+    .nav-list{
+       visibility: hidden;
+    }
+    
+    
+}  

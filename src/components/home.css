@@ -1,0 +1,108 @@
+/* CSS for the Home component */
+
+.home {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .col h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .col p {
+    font-size: 18px;
+  }
+  
+  .home-image-1 {
+    max-width: 100%;
+  }
+  
+  .row-2 {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .row-2 h2 {
+    font-size: 30px;
+  }
+  
+  .row-2 p {
+    font-size: 18px;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .privacy {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .home {
+      padding: 10px;
+    }
+  
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .col h1 {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+  
+    .col p {
+      font-size: 16px;
+    }
+  
+    .home-image-1 {
+      max-width: 100%;
+    }
+  
+    .row-2 h2 {
+      font-size: 24px;
+    }
+  
+    .row-2 p {
+      font-size: 16px;
+    }
+  
+    .button {
+      font-size: 16px;
+    }
+  
+    .privacy {
+      font-size: 12px;
+    }
+  }
+  
